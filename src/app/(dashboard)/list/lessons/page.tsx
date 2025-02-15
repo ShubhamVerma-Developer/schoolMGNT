@@ -23,8 +23,8 @@ const columns = [
     accessor: "class",
   },
   {
-    header: "teacher",
-    accessor: "grade",
+    header: "Teacher",
+    accessor: "teacher",
     className: "hidden md:table-cell",
   },
   {
