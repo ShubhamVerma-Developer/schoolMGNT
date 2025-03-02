@@ -66,7 +66,7 @@ const SubjectListPage = () => {
             </button>
             {role === "admin" && (
               <button className="w-8 h-8 flex items-center justify-center rounded-full bg-lamaYellow">
-                <Image src="/plus.png" alt="" width={10} height={10} />
+                <Image src="/create.png" alt="" width={10} height={10} />
               </button>
             )}
           </div>
