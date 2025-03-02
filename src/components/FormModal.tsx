@@ -49,7 +49,7 @@ const FormModal = ({
         </button>
       </form>
     ) : (
-      <TeacherForm type="create" />
+      <TeacherForm type="update" data={data} />
     );
   };
 

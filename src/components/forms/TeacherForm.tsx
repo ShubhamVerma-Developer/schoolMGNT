@@ -102,7 +102,7 @@ const TeacherForm = ({
         <InputField
           label="Phone"
           name="phone"
-          type="number"
+          type="mobile"
           defaultValue={data?.phone}
           register={register}
           error={errors?.phone}
