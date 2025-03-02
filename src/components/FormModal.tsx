@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import TeacherForm from "./forms/TeacherForm";
+import StudentForm from "./forms/StudentForm";
 
 const FormModal = ({
   table,
@@ -49,7 +50,8 @@ const FormModal = ({
         </button>
       </form>
     ) : (
-      <TeacherForm type="update" data={data} />
+      // <TeacherForm type="update" data={data} />
+      <StudentForm type="update" data={data} />
     );
   };
 
